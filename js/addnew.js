@@ -15,4 +15,5 @@ document.getElementById('btn').addEventListener('click', (event) => {
   const newBook = new Book(bookanme, author, new Date().getTime());
   new BookListManger().addNewBook(newBook);
   location.reload();
+  //Test comit
 });
